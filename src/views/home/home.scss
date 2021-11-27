@@ -1,0 +1,33 @@
+.page-home {
+  width: 100%;
+  .link + .link {
+    margin-left: 10px;
+  }
+  .code-box {
+    width: 100%;
+    img {
+      display: inline-block;
+      vertical-align: top;
+      width: 280px;
+      margin-right: 16px;
+      border-radius: 4px;
+      box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+      transition: 0.3s all;
+    }
+    .hovercode {
+      cursor: pointer;
+      &:hover + .qrcode {
+        opacity: 1;
+        transform: translateX(0px);
+      }
+    }
+    .qrcode {
+      opacity: 0;
+      transform: translateX(100px);
+    }
+  }
+  .options-box {
+    width: 220px;
+    margin-bottom: 24px;
+  }
+}

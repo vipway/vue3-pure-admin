@@ -1,0 +1,40 @@
+{
+    "name": "vue3-vite2-admin",
+    "version": "0.0.1",
+    "scripts": {
+        "dev": "vite",
+        "build": "vue-tsc --noEmit && vite build",
+        "serve": "vite preview"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@git@github.com:vipway/vue3-pure-admin.git"
+    },
+    "keywords": [
+        "vue",
+        "vue-router",
+        "vite",
+        "tsx",
+        "typescript",
+        "admin",
+        "template"
+    ],
+    "author": "@vipjs",
+    "license": "MIT",
+    "dependencies": {
+        "nprogress": "^0.2.0",
+        "vue": "^3.2.16",
+        "vue-router": "4.0.12"
+    },
+    "devDependencies": {
+        "@types/node": "^16.11.7",
+        "@types/nprogress": "^0.2.0",
+        "@vitejs/plugin-vue": "^1.9.4",
+        "@vitejs/plugin-vue-jsx": "^1.2.0",
+        "@vue/compiler-sfc": "^3.2.22",
+        "sass": "^1.43.4",
+        "typescript": "^4.4.4",
+        "vite": "^2.6.14",
+        "vue-tsc": "^0.3.0"
+    }
+}

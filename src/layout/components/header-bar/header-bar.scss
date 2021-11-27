@@ -1,0 +1,36 @@
+@import '@/styles/variables.scss';
+@mixin font {
+  font-size: 15px;
+  color: #555;
+}
+.user-info-box {
+  @include font();
+  .avatar {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  .username {
+    padding: 6px 8px;
+    color: #13ce66;
+    background-color: #e7faf0;
+    line-height: 1;
+    // border-radius: 2px;
+  }
+  .logout {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    padding: 6px 10px 6px 4px;
+    line-height: 1;
+    @include font();
+    @include moveTime();
+    &:hover {
+      color: $theme;
+    }
+    .svg-icon {
+      margin-right: 4px;
+    }
+  }
+}
